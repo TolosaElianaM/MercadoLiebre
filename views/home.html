@@ -6,26 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado Liebre</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 
 <body>
     <header>
         <img src="/images/logo-mercado-liebre.svg" alt="Logo Mercado Liebre">
-        <p>Lugar para poner la barra de búsqueda</p>
-        <p>Comprá en cuotas y sin tarjeta de crédito</p>
+        <div>
+            <p class="barra-busqueda">Buscar productos, marcas</p>
+            <i class="fas fa-search nav-bar"></i>
+        </div>
+        
+        <p><i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito</p>
         <nav>
-            <ul>
+            <ul type="none">
                 <li>Ofertas</li>
                 <li>Tiendas Oficiales</li>
                 <li>Vender</li>
                 <li>Ayuda</li>
             </ul>
-            <ul>
-                <li>Creá tu cuenta</li>
-                <li>Ingresá</li>
-                <li>Mis compras</li>
+            <ul type="none">
+                <li>Creá tu cuenta <i class="far fa-id-card"></i></li>
+                <li>Ingresá <i class="fas fa-sign-in-alt"></i></li>
+                <li>Mis compras <i class="fas fa-shopping-basket"></i></li>
             </ul>
         </nav>
+        <div class="burger-menu">
+            <i class="fas fa-bars menu"></i>
+        </div>
     </header>
     <main>
         <img src="/images/img-home-banner.jpg" alt="">
@@ -52,7 +61,7 @@
             <article>
                 <img src="/images/img-tv-samsung-smart.jpg" alt="">
                 <p> $23.200 </p>
-                <span> 5% OFF </span>                 
+                <span> 5% OFF </span>
                 <h4> SmartTv Samsung 43" </h4>
             </article>
         </section>
@@ -86,6 +95,7 @@
     </main>
     <footer>
         <section>
+            <i class="fas fa-credit-card"></i>
             <h3>Pagá con tarjeta o en efectivo</h3>
             <p>
                 Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
@@ -93,6 +103,7 @@
             </p>
         </section>
         <section>
+            <i class="fas fa-gift"></i>
             <h3>Envío gratis desde $ 2.500</h3>
             <p>
                 Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
@@ -100,14 +111,16 @@
             </p>
         </section>
         <section>
+            <i class="fas fa-user-shield"></i>
             <h3>Seguridad, de principio a fin</h3>
             <p>
                 ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
                 porque estás siempre protegid@</p>
         </section>
         <section>
-            <h3>Copyright © 1999-2020 MercadoLiebre S.R.L.</h3>
+            <h3 class="copyright">Copyright © 1999-2020 MercadoLiebre S.R.L.</h3>
         </section>
     </footer>
 </body>
+
 </html>

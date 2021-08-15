@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root{
+    --color-amarillo: #EAC926;
+    --color-azul: #03264C;
+    --color-celeste: #1259c3;
+    --color-gris-oscuro: #666;
+    --color-gris-claro: #ebebeb;
+    --color-verde: #39b54a;
+    --fuente: 'Roboto', sans-serif;
+    --cuerpo-texto: 12px;
+    --titulares: 24px;
+    --precios:18px;
+    --descuentos: 16px;
+    --descripciones: 16px;
+}
+
+main img{
+    width: 100vw;
+}
+
+main section article{
+    padding: 0;
+    margin: 10px 30px;
+    text-align: center;
+    background-color: white;
+}
+
+main section article img{
+    width: 70vw;
+    align-items: center;
+}
+main section h2{
+    font-size: var(--titulares);
+    margin: 10px;
+}
+main section article p{
+    font-size: var(--precios);
+}
+main section article span{
+    font-size: var(--descuentos);
+}
+main section article h4{
+    font-size: var(--descripciones);
+}

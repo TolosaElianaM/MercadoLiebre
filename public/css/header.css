@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root{
+    --color-amarillo: #EAC926;
+    --color-azul: #03264C;
+    --color-celeste: #1259c3;
+    --color-gris-oscuro: #666;
+    --color-gris-claro: #ebebeb;
+    --color-verde: #39b54a;
+    --fuente: 'Roboto', sans-serif;
+    --cuerpo-texto: 12px;
+    --titulares: 24px;
+    --precios:18px;
+    --descuentos: 16px;
+    --descripciones: 16px;
+}
+
+header{
+    background-color: var(--color-amarillo);
+    font-family: var(--fuente);
+    font-size: var(--cuerpo-texto);
+}
+
+header img{
+    width: 40vw;
+    margin: 30px 30px 15px;
+}
+
+.barra-busqueda{
+    background-color: white;
+    color: var(--color-gris-oscuro);
+    border: 1px solid var(--color-gris-oscuro);
+    border-radius: 2px;
+    width: 45vw;
+    margin-left: 20px;
+    margin-bottom: 1px;
+    padding: 1px 5px 1px 0;
+}
+header p{
+    text-align: center;
+    margin: 15px 0;
+}
+header .nav-bar{
+    background-color: white;
+    border: 1px solid var(--color-gris-oscuro);
+    border-radius: 2px;
+    padding: 3px 1px;
+    margin-left: 20px;
+}
+
+header nav ul{
+    margin: 10px 0;
+}
+
+header .burger-menu{
+    text-align: center;
+    padding: 20px 0;
+}
+header .menu{
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: var(--color-celeste);
+    color: white;
+}
