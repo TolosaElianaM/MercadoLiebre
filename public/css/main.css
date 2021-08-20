@@ -1,17 +1,29 @@
+main section{
+    width: 90%;
+    margin-left: 5%;
+}
+
 main img{
-    width: 100vw;
+    width: 100%;
 }
 
 main section article{
     padding: 0;
-    margin: 10px 30px;
+    margin: 10px 0;
     text-align: center;
     background-color: white;
 }
 
 main section article img{
     width: 70vw;
-    align-items: center;
+}
+main section article div{
+    text-align: left;
+    margin: 0 15px;
+    border-top: 1px solid #ebebeb;
+}
+main section article div h4{
+    visibility: hidden;
 }
 main section h2{
     font-size: var(--titulares);
@@ -22,7 +34,22 @@ main section article p{
 }
 main section article span{
     font-size: var(--descuentos);
+    margin-bottom: 15px;
 }
 main section article h4{
     font-size: var(--descripciones);
+}
+
+@media (min-width: 361px) {
+    main section article div{
+        box-shadow: 0 0 10px rgb(100, 100, 100);
+    }
+    main section article div h4{
+        visibility: visible;
+    }
+}
+@media (min-width: 769px) {
+    main section article div{
+        box-shadow: 0 0 10px rgb(100, 100, 100);
+    }
 }
