@@ -1,18 +1,3 @@
-:root{
-    --color-amarillo: #EAC926;
-    --color-azul: #03264C;
-    --color-celeste: #1259c3;
-    --color-gris-oscuro: #666;
-    --color-gris-claro: #ebebeb;
-    --color-verde: #39b54a;
-    --fuente: 'Roboto', sans-serif;
-    --cuerpo-texto: 12px;
-    --titulares: 24px;
-    --precios:18px;
-    --descuentos: 16px;
-    --descripciones: 16px;
-}
-
 footer{
     background-color: white;
     margin-top: 50px;
