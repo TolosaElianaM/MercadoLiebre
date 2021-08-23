@@ -15,14 +15,15 @@ main section article{
 }
 
 main section article img{
-    width: 70vw;
+    width: 100%;
 }
 main section article div{
     text-align: left;
-    margin: 0 15px;
+    padding: 10px 15px;
     border-top: 1px solid #ebebeb;
 }
 main section article div h4{
+    padding: 10px 0;
     visibility: hidden;
 }
 main section h2{
@@ -39,9 +40,15 @@ main section article span{
 main section article h4{
     font-size: var(--descripciones);
 }
+main section article div i{
+    color: var(--color-verde);
+    border: 1px solid var(--color-verde);
+    padding: 5px;
+    border-radius: 50%;
+}
 
 @media (min-width: 361px) {
-    main section article div{
+    main section article{
         box-shadow: 0 0 10px rgb(100, 100, 100);
     }
     main section article div h4{
