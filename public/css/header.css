@@ -1,66 +1,83 @@
-header{
+header {
     background-color: var(--color-amarillo);
     font-family: var(--fuente);
     font-size: var(--cuerpo-texto);
 }
 
-header img{
-    width: 40vw;
-    margin: 30px 30px 15px;
+header .logo-barra{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
 }
 
-header .barra-busqueda{
+header .logo-barra img {
+    width: 50%;
+}
+
+header .logo-barra .barra{
+    width: 50%;
+}
+
+header .logo-barra .barra input{
     background-color: white;
     color: var(--color-gris-oscuro);
     border: 1px solid var(--color-gris-oscuro);
     border-radius: 2px;
-    width: 45vw;
-    margin-left: 20px;
-    margin-bottom: 1px;
-    padding: 1px 5px 1px 0;
 }
 
-header p{
+header .logo-barra .barra button{
+    position: absolute;
+    right: 1%;
+    top: 1%;
+}
+
+header .logo-barra p {
     text-align: center;
     margin: 15px 0;
 }
-header .nav-bar{
+
+header .nav-bar {
     background-color: white;
     border: 1px solid var(--color-gris-oscuro);
     border-radius: 2px;
     padding: 3px 1px;
     margin-left: 20px;
 }
-header nav{
+
+header nav {
     display: none;
 }
-header nav ul{
+
+header nav ul {
     padding: 10px 0;
 }
-header nav ul li a{
+
+header nav ul li a {
     text-decoration: none;
     color: black;
 }
 
-header .burger-menu{
+header .burger-menu {
     text-align: center;
     padding: 20px 0;
 }
-header .menu{
+
+header .menu {
     font-size: 20px;
     border-radius: 5px;
     padding: 10px;
     background-color: var(--color-celeste);
     color: white;
 }
+
 @media (min-width: 361px) {
-    header nav{
+    header nav {
         display: inline;
     }
-    header .burger-menu{
+
+    header .burger-menu {
         display: none;
     }
 }
-@media (min-width: 769px) {
-    
-}
+
+@media (min-width: 769px) {}

@@ -1,62 +1,94 @@
-main section{
+main section {
     width: 90%;
     margin-left: 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-main img{
+main img {
     width: 100%;
 }
 
-main section article{
+main section article {
     padding: 0;
     margin: 10px 0;
     text-align: center;
     background-color: white;
 }
 
-main section article img{
+main section article img {
     width: 100%;
 }
-main section article div{
-    text-align: left;
-    padding: 10px 15px;
-    border-top: 1px solid #ebebeb;
-}
-main section article div h4{
-    padding: 10px 0;
-    visibility: hidden;
-}
-main section h2{
+
+main section h2 {
     font-size: var(--titulares);
     margin: 10px;
+    width: 100%;
 }
-main section article p{
-    font-size: var(--precios);
-}
-main section article span{
-    font-size: var(--descuentos);
-    margin-bottom: 15px;
-}
-main section article h4{
+
+main section article h4 {
     font-size: var(--descripciones);
 }
-main section article div i{
+
+main section article div {
+    text-align: left;
+    padding: 20px 15px 10px;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main section article div h4 {
+    margin: 15px 0 10px;
+    color: var(--color-gris-oscuro);
+    display: none;
+}
+
+main section article div i {
+    display: ​block​;
     color: var(--color-verde);
-    border: 1px solid var(--color-verde);
+    font-size: ​16​px​;
     padding: 5px;
+    width: ​30​px​;
+    height: ​30​px​;
+    border: 1px solid var(--color-verde);
+    background-color: #fff;
     border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+main section article div p {
+    width: 30%;
+    font-size: var(--precios);
+}
+
+main section article div span {
+    width: 70%;
+    font-size: var(--descuentos);
+    color: var(--color-verde);
 }
 
 @media (min-width: 361px) {
-    main section article{
+    main section article {
         box-shadow: 0 0 10px rgb(100, 100, 100);
+        width: 45%;
     }
-    main section article div h4{
-        visibility: visible;
+
+    main section article div h4 {
+        display: block;
     }
 }
+
 @media (min-width: 769px) {
-    main section article div{
+    main section article {
+        width: 22%;
+    }
+
+    main section article div {
         box-shadow: 0 0 10px rgb(100, 100, 100);
     }
 }
