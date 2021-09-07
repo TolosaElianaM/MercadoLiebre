@@ -6,8 +6,9 @@ main section {
     flex-wrap: wrap;
 }
 
-main img {
+main .banner{
     width: 100%;
+    display: none;
 }
 
 main section article {
