@@ -33,7 +33,7 @@ main section article h4 {
 }
 
 main section article div {
-    text-align: left;
+    text-align: center;
     padding: 20px 15px 10px;
     border-top: 1px solid #ebebeb;
     position: relative;
@@ -73,7 +73,7 @@ main section article div span {
     color: var(--color-verde);
 }
 
-@media (min-width: 361px) {
+@media (min-width: 426px) {
     main section article {
         box-shadow: 0 0 10px rgb(100, 100, 100);
         width: 45%;
