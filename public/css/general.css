@@ -24,3 +24,7 @@ body{
     background-color: var(--color-gris-claro);
     font-family: var(--fuente);
 }
+a{
+    text-decoration: none;
+    color: black;
+}
