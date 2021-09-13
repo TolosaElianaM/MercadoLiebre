@@ -1,17 +1,30 @@
+.home section{
+    width: 90%;
+    margin-left: 5%;
+}
+
 .home img{
-    width: 100vw;
+    width: 100%;
 }
 
 .home section article{
     padding: 0;
-    margin: 10px 30px;
+    margin: 10px 0;
     text-align: center;
     background-color: white;
 }
 
 .home section article img{
-    width: 70vw;
-    align-items: center;
+    width: 100%;
+}
+.home section article div{
+    text-align: left;
+    padding: 10px 15px;
+    border-top: 1px solid #ebebeb;
+}
+.home section article div h4{
+    padding: 10px 0;
+    visibility: hidden;
 }
 .home section h2{
     font-size: var(--titulares);
@@ -22,7 +35,28 @@
 }
 .home section article span{
     font-size: var(--descuentos);
+    margin-bottom: 15px;
 }
 .home section article h4{
     font-size: var(--descripciones);
+}
+.home section article div i{
+    color: var(--color-verde);
+    border: 1px solid var(--color-verde);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+@media (min-width: 361px) {
+    .home section article{
+        box-shadow: 0 0 10px rgb(100, 100, 100);
+    }
+    .home section article div h4{
+        visibility: visible;
+    }
+}
+@media (min-width: 769px) {
+    .home section article div{
+        box-shadow: 0 0 10px rgb(100, 100, 100);
+    }
 }
