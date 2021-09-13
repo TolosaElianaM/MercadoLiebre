@@ -1,28 +1,28 @@
-main img{
+.home img{
     width: 100vw;
 }
 
-main section article{
+.home section article{
     padding: 0;
     margin: 10px 30px;
     text-align: center;
     background-color: white;
 }
 
-main section article img{
+.home section article img{
     width: 70vw;
     align-items: center;
 }
-main section h2{
+.home section h2{
     font-size: var(--titulares);
     margin: 10px;
 }
-main section article p{
+.home section article p{
     font-size: var(--precios);
 }
-main section article span{
+.home section article span{
     font-size: var(--descuentos);
 }
-main section article h4{
+.home section article h4{
     font-size: var(--descripciones);
 }
