@@ -1,46 +1,46 @@
-main section{
+.home section{
     width: 90%;
     margin-left: 5%;
 }
 
-main img{
+.home img{
     width: 100%;
 }
 
-main section article{
+.home section article{
     padding: 0;
     margin: 10px 0;
     text-align: center;
     background-color: white;
 }
 
-main section article img{
+.home section article img{
     width: 100%;
 }
-main section article div{
+.home section article div{
     text-align: left;
     padding: 10px 15px;
     border-top: 1px solid #ebebeb;
 }
-main section article div h4{
+.home section article div h4{
     padding: 10px 0;
     visibility: hidden;
 }
-main section h2{
+.home section h2{
     font-size: var(--titulares);
     margin: 10px;
 }
-main section article p{
+.home section article p{
     font-size: var(--precios);
 }
-main section article span{
+.home section article span{
     font-size: var(--descuentos);
     margin-bottom: 15px;
 }
-main section article h4{
+.home section article h4{
     font-size: var(--descripciones);
 }
-main section article div i{
+.home section article div i{
     color: var(--color-verde);
     border: 1px solid var(--color-verde);
     padding: 5px;
@@ -48,15 +48,15 @@ main section article div i{
 }
 
 @media (min-width: 361px) {
-    main section article{
+    .home section article{
         box-shadow: 0 0 10px rgb(100, 100, 100);
     }
-    main section article div h4{
+    .home section article div h4{
         visibility: visible;
     }
 }
 @media (min-width: 769px) {
-    main section article div{
+    .home section article div{
         box-shadow: 0 0 10px rgb(100, 100, 100);
     }
 }
