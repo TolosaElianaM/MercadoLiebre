@@ -1,0 +1,95 @@
+.home section {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.home .banner{
+    width: 100%;
+    display: none;
+}
+
+.home section article {
+    padding: 0;
+    margin: 10px 0;
+    text-align: center;
+    background-color: white;
+}
+
+.home section article img {
+    width: 100%;
+}
+
+.home section h2 {
+    font-size: var(--titulares);
+    margin: 10px;
+    width: 100%;
+}
+
+.home section article h4 {
+    font-size: var(--descripciones);
+}
+
+.home section article div {
+    text-align: center;
+    padding: 20px 15px 10px;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home section article div h4 {
+    margin: 15px 0 10px;
+    color: var(--color-gris-oscuro);
+    display: none;
+}
+
+.home section article div i {
+    display: block;
+    color: var(--color-verde);
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--color-verde);
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+.home section article div p {
+    width: 30%;
+    font-size: var(--precios);
+}
+
+.home section article div span {
+    width: 70%;
+    font-size: var(--descuentos);
+    color: var(--color-verde);
+}
+
+@media (min-width: 426px) {
+    .home section article {
+        box-shadow: 0 0 10px rgb(100, 100, 100);
+        width: 45%;
+    }
+
+    .home section article div h4 {
+        display: block;
+    }
+}
+
+@media (min-width: 769px) {
+    .home section article {
+        width: 22%;
+    }
+
+    .home section article div {
+        box-shadow: 0 0 10px rgb(100, 100, 100);
+    }
+}

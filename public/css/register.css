@@ -1,0 +1,134 @@
+.forms main form {
+    padding: 20px 0;
+}
+
+.forms main form input {
+    border: none;
+    border-radius: 5px;
+}
+
+.forms main form div {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.forms main form .info {
+    padding: 10px;
+    font-weight: 600;
+}
+
+.forms main form div input {
+    padding: 10px;
+}
+
+.forms main form .radio span {
+    margin: 5px auto;
+}
+
+.forms main form .radio span input {
+    margin: 10px 7px;
+}
+
+.forms main form .interest span {
+    margin: 5px 10px;
+}
+
+.forms main form .interest span label {
+    margin: 0 5px;
+}
+
+.forms main form .interest span input {
+    margin: 0 5px;
+
+}
+
+.forms main form .boton {
+    margin: 30px auto 10px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.forms main form .boton button {
+    border: none;
+    background-color: var(--color-celeste);
+    color: white;
+    padding: 10px;
+    width: 45%;
+    border-radius: 5px;
+}
+
+.forms main form button.eraser {
+    background-color: #b7d2fc;
+    color: var(--color-azul);
+}
+
+.forms main form .login-button {
+    margin: 30px auto 0;
+}
+
+.forms main form .login-button button {
+    border: none;
+    background-color: var(--color-celeste);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+@media (min-width:426px) {
+    .forms main form {
+        margin: 0 auto;
+    }
+
+    .forms main form div {
+        width: 70%;
+    }
+
+    .forms main form label {
+        max-width: 100%;
+    }
+
+    .forms main form input {
+        max-width: 100%;
+    }
+    .forms main form .radio span{
+        margin: 5px;
+    }
+    .forms main form .interest {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .forms main form .interest .info {
+        width: 100%;
+    }
+
+    .forms main form .interest span input{
+        margin: 0;
+    }
+
+    .forms main form .boton {
+        width: 70%;
+    }
+
+    .forms main form .boton button {
+        max-width: 100%;
+    }
+}
+
+@media (min-width:769px) {
+    .forms main form div {
+        width: 50%;
+    }
+
+    .forms main form .boton {
+        width: 50%;
+    }
+}
